@@ -61,4 +61,31 @@ li{
     list-style-image: url(/assets/images/icon-list.svg);
     line-height: 30px;
 
+
+}
+input[type=email] {
+    padding: 8px;
+    margin: 5px 0px 10px 0px;
+    width: 270px;
+}
+input[type=email]:hover{
+    cursor: pointer;
+}
+label {
+   font-weight: 900;
+}
+input[type=submit] {
+    padding: 14px 50px;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    margin: 5px 0px 10px 0px;
+    border-radius: 7px;   
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    
+}
+input[type=submit]:hover{
+    background-image: linear-gradient(to right, rgb(255,105,180), hsl(4, 100%, 67%));
+    cursor: pointer;
+    box-shadow: 0 3px 20px -2px hsl(4, 100%, 67%);
 }
